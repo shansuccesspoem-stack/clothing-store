@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — LULUMI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+        <a href="index.html" class="logo">LULUMI</a>
+        <nav class="nav-desktop">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="shop.html?category=Dresses">Dresses</a>
+            <a href="shop.html?category=Tops">Tops</a>
+            <a href="shop.html?category=Bottoms">Bottoms</a>
+            <a href="shop.html?category=Sets">Sets</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button class="icon-btn search-toggle" aria-label="Search">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+            </button>
+            <a href="cart.html" class="icon-btn cart-btn" aria-label="Cart">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" x2="21" y1="6" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<nav class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop All</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="search-overlay">
+    <button class="search-close" aria-label="Close">×</button>
+    <form class="search-box" id="searchForm">
+        <input type="text" id="searchInput" placeholder="Search..." aria-label="Search">
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<section class="contact-hero">
+    <span class="section-eyebrow">Get in Touch</span>
+    <h1>We'd Love to Hear From You</h1>
+    <p>Have a question about our products, your order, or just want to say hello? We're here to help.</p>
+</section>
+
+<section class="contact-layout">
+    <div class="contact-info">
+        <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+                <h4>Phone</h4>
+                <a href="tel:+94771234567">+94 77 123 4567</a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <div>
+                <h4>Email</h4>
+                <a href="mailto:hello@lulumi.com">hello@lulumi.com</a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <div>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/94771234567">+94 77 123 4567</a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-icon">📷</div>
+            <div>
+                <h4>Instagram</h4>
+                <a href="#">@lulumi.official</a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-icon">📘</div>
+            <div>
+                <h4>Facebook</h4>
+                <a href="#">LULUMI Official</a>
+            </div>
+        </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+        <h3>Send us a Message</h3>
+        <div class="form-group">
+            <label for="contactName">Name *</label>
+            <input type="text" id="contactName" required>
+        </div>
+        <div class="form-group">
+            <label for="contactEmail">Email *</label>
+            <input type="email" id="contactEmail" required>
+        </div>
+        <div class="form-group">
+            <label for="contactPhone">Phone</label>
+            <input type="tel" id="contactPhone">
+        </div>
+        <div class="form-group">
+            <label for="contactMessage">Message *</label>
+            <textarea id="contactMessage" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+    </form>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">LULUMI</a>
+            <p>Little styles, big smiles.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="shop.html?category=Dresses">Dresses</a></li>
+                <li><a href="shop.html?category=Tops">Tops</a></li>
+                <li><a href="shop.html?category=Sets">Sets</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">TikTok</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2026 LULUMI. All rights reserved.</span>
+        <span class="made-with">Made with love for little ones. 💕</span>
+    </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
